@@ -1,7 +1,7 @@
 import fetch from "node-fetch";
 
 // === 配置区 ===
-const { loadHook } = require('./hook_loader');
+import { loadHook } from './hook_loader.js';
 const webhook = loadHook();
 
 // === 生成日期信息 ===
