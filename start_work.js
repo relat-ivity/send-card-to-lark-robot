@@ -1,4 +1,4 @@
-import fetch from "node-fetch"; // 如果是 CommonJS，用 require
+import fetch from "node-fetch";
 
 // === 配置区 ===
 import { loadHook } from './hook_loader.js';
